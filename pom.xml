@@ -19,7 +19,6 @@
         <maven-war-plugin>2.3</maven-war-plugin>
         <maven-dependency-plugin>2.9</maven-dependency-plugin>
         <maven-java-formatter-plugin.version>0.4</maven-java-formatter-plugin.version>
-        <cdeps-common-build-tools.version>1.2.0</cdeps-common-build-tools.version>
         <!-- Libraries -->
         <javaee-web-api.version>7.0</javaee-web-api.version>
         <javax.jms-api.version>2.0</javax.jms-api.version>
@@ -30,8 +29,6 @@
         <metrics.version>3.1.0</metrics.version>
         <metrics-cdi.version>1.0.0</metrics-cdi.version>
         <apache-camel.version>2.15-SNAPSHOT</apache-camel.version>
-        <yaml.version>1.5</yaml.version>
-    
     </properties>
     
 
@@ -116,12 +113,6 @@
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-jpa</artifactId>
 			<version>${apache-camel.version}</version>
-		</dependency>
-        <dependency>
-		<groupId>org.yaml</groupId>
-			<artifactId>snakeyaml</artifactId>
-			<version>${yaml.version}</version>
-			<scope>compile</scope>
 		</dependency>
     </dependencies>
 
