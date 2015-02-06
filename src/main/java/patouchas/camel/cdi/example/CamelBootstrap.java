@@ -36,7 +36,7 @@ public class CamelBootstrap {
     private PlatformTransactionManager ptm;
 
     @Inject
-    private TestRoute testRoute;
+    private MyRoute testRoute;
 
     @PostConstruct
     public void init() {

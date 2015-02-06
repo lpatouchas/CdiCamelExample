@@ -6,7 +6,7 @@ import javax.ws.rs.ApplicationPath;
  * @author patouchas
  *
  */
-@ApplicationPath("/cdiCamel")
+@ApplicationPath("/rest")
 public class Application extends javax.ws.rs.core.Application {
 
 }

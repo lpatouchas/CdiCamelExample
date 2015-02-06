@@ -17,19 +17,19 @@ import org.apache.camel.spi.IdempotentRepository;
  *
  */
 @ApplicationScoped
-public class TestRoute extends RouteBuilder {
+public class MyRoute extends RouteBuilder {
 
     private IdempotentRepository<String> repo;
 
     private MyProcessor myProcessor;
 
     @Inject
-    public TestRoute(IdempotentRepository<String> repo, MyProcessor myProcessor) {
+    public MyRoute(IdempotentRepository<String> repo, MyProcessor myProcessor) {
         this.repo = repo;
         this.myProcessor = myProcessor;
     }
 
-    protected TestRoute() {
+    protected MyRoute() {
 
     }
 
