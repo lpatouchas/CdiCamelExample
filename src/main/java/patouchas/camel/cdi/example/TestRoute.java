@@ -28,7 +28,7 @@ public class TestRoute extends RouteBuilder {
     @Override
     public void configure() throws Exception {
 
-        from("jms:SG").transacted("PROPAGATION_REQUIRED")
+        from("jms:myQueue").transacted("PROPAGATION_REQUIRED")
         		.idempotentConsumer(header("UNIQUE_ID"))
                 .messageIdRepository(repo).skipDuplicate(false)
                 .choice()

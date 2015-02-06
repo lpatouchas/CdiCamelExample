@@ -22,7 +22,7 @@ public class RestResource {
     @Inject
     private JMSContext context;
 
-    @Resource(lookup = "SG")
+    @Resource(lookup = "myQueue")
     private Queue queue;
 
     @Consumes(MediaType.APPLICATION_XML)
