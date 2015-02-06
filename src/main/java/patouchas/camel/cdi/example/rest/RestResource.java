@@ -15,6 +15,12 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
+/**
+ * Simple rest, that puts the message to myQueue 
+ * 
+ * @author patouchas
+ *
+ */
 @Path("/msg/")
 @ApplicationScoped
 public class RestResource {

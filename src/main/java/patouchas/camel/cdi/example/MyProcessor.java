@@ -9,6 +9,13 @@ import org.apache.camel.Processor;
 
 import patouchas.camel.cdi.example.domain.DomainObject;
 
+/**
+ * MyProcessor is a simple processor that will create and persist the
+ * {@link DomainObject}
+ * 
+ * @author patouchas
+ *
+ */
 @ApplicationScoped
 public class MyProcessor implements Processor {
 
