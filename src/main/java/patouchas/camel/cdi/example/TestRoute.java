@@ -8,6 +8,14 @@ import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.spi.IdempotentRepository;
 
+/**
+ * TestRoute consumes the myQueue. It is transacted and will check for
+ * duplicates by using a memory idempotent. If the received message is not a
+ * duplicate it will persist it.
+ * 
+ * @author patouchas
+ *
+ */
 @ApplicationScoped
 public class TestRoute extends RouteBuilder {
 

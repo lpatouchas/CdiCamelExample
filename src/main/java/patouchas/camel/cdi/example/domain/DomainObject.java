@@ -7,6 +7,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
+/**
+ * A simple domain object to use to our example 
+ * 
+ * @author patouchas
+ *
+ */
 @Entity
 public class DomainObject {
 

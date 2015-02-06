@@ -3,8 +3,8 @@ package patouchas.camel.cdi.example.rest;
 import javax.ws.rs.ApplicationPath;
 
 /**
+ * @author patouchas
  *
- * @author Routis Babis <Haralampos.ROUTIS@intrasoft-intl.com>
  */
 @ApplicationPath("/cdiCamel")
 public class Application extends javax.ws.rs.core.Application {

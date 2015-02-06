@@ -13,6 +13,12 @@ import org.apache.camel.component.jms.JmsComponent;
 import org.springframework.transaction.PlatformTransactionManager;
 
 /**
+ * 
+ * Here is where we instantiate our Camel Context. We add the camel routes we
+ * want and we also configure the jms component that we will use by setting the
+ * connecton factory and the transaction manager
+ * 
+ * 
  * @author patouchas
  *
  */
