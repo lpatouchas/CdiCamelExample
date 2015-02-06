@@ -179,11 +179,4 @@
             </snapshots>
         </repository>
     </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>ntks-releases-local</id>
-            <name>Libs Releases</name>
-            <url>http://scm.ntks.athens.intrasoft-intl.private:8080/artifactory/libs-release-local</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
