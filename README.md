@@ -5,4 +5,4 @@ The project's setup is for **Wildfly 8.2** and **JDK 8**.
 
 It contains one route,that is transacted and consumes from the queue *"myQueue"*. It does a dublication with a Memory Idempotent and if the message is not duplicate it calls a processor that creates and persists a simple domain object.
 
-The rest interfaces exposes a PUT method at: "/CdiCamelExample/rest/msg" and expects a message body and a UNIQUE_ID header param.
+The rest interfaces exposes a PUT method at: "/CdiCamelExample/rest/msg" and expects a message body and a UNIQUE_ID header param. 
